@@ -1,11 +1,11 @@
 
 =head1 NAME
 
-ITTool::Daemon - ITTool Daemon module
+OneTool::Daemon - OneTool Daemon module
 
 =cut
 
-package ITTool::Daemon;
+package OneTool::Daemon;
 
 use strict;
 use warnings;
@@ -80,7 +80,7 @@ sub Listener
 =cut
 
     my $json_header = HTTP::Headers->new('Content-Type' => 'application/json');
-    $self->Log('info', 'ITTool Daemon API listening on ' . $daemon->url);
+    $self->Log('info', 'OneTool Daemon API listening on ' . $daemon->url);
     while (my $connection = $daemon->accept)
     {
         while (my $request = $connection->get_request)
