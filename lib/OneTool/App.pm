@@ -1,3 +1,4 @@
+package OneTool::App;
 
 =head1 NAME
 
@@ -13,8 +14,6 @@ Deafult options are:
   -v/--version
   
 =cut
-
-package OneTool::App;
 
 use strict;
 use warnings;

@@ -1,11 +1,10 @@
+package OneTool::Daemon;
 
 =head1 NAME
 
 OneTool::Daemon - OneTool Daemon module
 
 =cut
-
-package OneTool::Daemon;
 
 use strict;
 use warnings;
