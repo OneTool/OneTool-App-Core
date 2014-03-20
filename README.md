@@ -2,3 +2,5 @@ OneTool-App-Core [![Build Status](https://secure.travis-ci.org/OneTool/OneTool-A
 ================
 
 Core modules for Applications from OneTool suite
+
+More information about OneTool project [here](https://github.com/OneTool/OneTool-Documentation/blob/master/README.md).
